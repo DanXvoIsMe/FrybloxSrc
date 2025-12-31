@@ -1,0 +1,64 @@
+.home-random-img {
+    width: 100%;
+}
+
+.home-news-item {
+    padding: 6px 0;
+    border-bottom: 1px solid #333;
+    align-items: center;
+}
+
+.home-news-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.home-news-time {
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+.home-news-desc {
+    font-size: 0.9rem;
+    padding: 6px 0 12px 0;
+    opacity: 0.85;
+}
+
+
+.home-friend-avatar {
+    width: 40px;
+    height: 40px;
+}
+
+.home-feed-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #333;
+}
+
+.home-game-item {
+    padding: 6px 0;
+    border-bottom: 1px solid #333;
+}
+
+.home-thumb {
+    width: 75px;
+    height: 45px;
+    border-radius: 4px;
+    border: 1px solid #444;
+}
+
+.home-game-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.home-game-visits {
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+.feed-time {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+

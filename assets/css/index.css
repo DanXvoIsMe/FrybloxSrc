@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url('/img/temp/cityback.png') no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(3px);
+    transform: scale(1.1);
+    z-index: -2;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.2);
+    z-index: -1;
+}
+
+.city {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 200%;
+    height: 100vh;
+    background: url('/img/temp/cityfront.png') repeat-x;
+    background-size: contain;
+    animation: scrollX 30s linear infinite;
+    z-index: 9999;
+    pointer-events: none;
+    
+}
+
+@keyframes scrollX {
+    from { background-position: 0 0; }
+    to   { background-position: -200vw 0; }
+}
